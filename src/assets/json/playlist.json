@@ -1,0 +1,155 @@
+[
+  {
+    "List": "Top Hits",
+    "data": [
+      {
+        "album": "No song without you",
+        "singer": "Honne",
+        "type": "Top Hits",
+        "img": "../images/no_song_without_you.jpeg",
+        "backgroundImg": "../images/no_song_without_you.jpeg",
+        "followers": "1,914,830",
+        "isFollow": false,
+        "copyright": "© 2019 MNH ENTERTAINMENT",
+        "songs": [
+          {
+            "song": "No song without you",
+            "videoId": "WXOlNBDVt0o",
+            "duration": "02:59",
+            "liked": false
+          },
+          {
+            "song": "Free love",
+            "videoId": "w-EoAXhKOLk",
+            "duration": "03:31",
+            "liked": false
+          },
+          {
+            "song": "la la la that's how it goes",
+            "videoId": "43FgE6uCyLw",
+            "duration": "03:40",
+            "liked": false
+          }
+        ]
+      },
+      {
+        "album": "Love me / Love me not",
+        "singer": "Honne",
+        "type": "Top Hits",
+        "img": "../images/love_me_or_not.jpeg",
+        "backgroundImg": "../images/love_me_or_not.jpeg",
+        "followers": "1,914,830",
+        "isFollow": false,
+        "copyright": "© 2019 MNH ENTERTAINMENT",
+        "songs": [
+          {
+            "song": "Me and You",
+            "videoId": "SB4Jra4zR80",
+            "duration": "04:03",
+            "liked": false
+          },
+          {
+            "song": "Location Unknown",
+            "videoId": "btIQvYcLNoI",
+            "duration": "05:25",
+            "liked": false
+          },
+          {
+            "song": "Crying Over you",
+            "videoId": "GdJP11JwLos",
+            "duration": "03:59",
+            "liked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "List": "Taiwan Hits",
+    "data": [
+      {
+        "album": "11月的蕭邦",
+        "singer": "Jay Chou",
+        "type": "Taiwan Hits",
+        "img": "../images/no_song_without_you.jpeg",
+        "backgroundImg": "../images/no_song_without_you.jpeg",
+        "followers": "1,914,830",
+        "isFollow": false,
+        "copyright": "© 2019 MNH ENTERTAINMENT",
+        "songs": [
+          {
+            "song": "珊瑚海",
+            "videoId": "kYhh1PpsOg4",
+            "duration": "04:24",
+            "liked": false
+          },
+          {
+            "song": "一路向北",
+            "videoId": "L229QDxDakU",
+            "duration": "05:02",
+            "liked": false
+          }
+        ]
+      },
+      {
+        "album": "七里香",
+        "singer": "Jay Chou",
+        "type": "Top Hits",
+        "img": "../images/love_me_or_not.jpeg",
+        "backgroundImg": "../images/love_me_or_not.jpeg",
+        "followers": "1,914,830",
+        "isFollow": false,
+        "copyright": "© 2019 MNH ENTERTAINMENT",
+        "songs": [
+          {
+            "song": "七里香",
+            "videoId": "Bbp9ZaJD_eA",
+            "duration": "05:03",
+            "liked": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "List": "Spanish Hits",
+    "data": [
+      {
+        "album": "Eterno Agosto",
+        "singer": "Alvaro Soler",
+        "type": "Spanish Hits",
+        "img": "../images/no_song_without_you.jpeg",
+        "backgroundImg": "../images/no_song_without_you.jpeg",
+        "followers": "1,914,830",
+        "isFollow": false,
+        "copyright": "© 2019 MNH ENTERTAINMENT",
+        "songs": [
+          {
+            "song": "Sofia",
+            "videoId": "qaZ0oAh4evU",
+            "duration": "03:33",
+            "liked": false
+          },
+          {
+            "song": "Libre",
+            "videoId": "OMBVoxgZooE",
+            "duration": "03:56",
+            "liked": false
+          },
+          {
+            "song": "Animal",
+            "videoId": "YfDhHUuGMuo",
+            "duration": "03:57",
+            "liked": false
+          },
+          {
+            "song": "El mismo sol",
+            "videoId": "aNHwNreDp3A",
+            "duration": "03:20",
+            "liked": false
+          }
+        ]
+      }
+    ]
+  }
+]

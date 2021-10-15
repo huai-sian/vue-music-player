@@ -1,0 +1,188 @@
+{
+    "Top Hits":[
+      {
+        "album": "No song without you",
+        "singer": "Honne",
+        "type": "Top Hits",
+        "img": "./no_song_without_you.jpeg",
+        "backgroundImg": "./10428166_468795979923968_4635514652121751513_o.jpeg",
+        "followers": "1,914,830",
+        "isFollow": false,
+        "copyright": "© 2019 MNH ENTERTAINMENT",
+        "songs": [
+          {
+            "song": "No song without you",
+            "videoId": "WXOlNBDVt0o",
+            "duration": "02:59",
+            "liked": false
+          },
+          {
+            "song": "Free love",
+            "videoId": "w-EoAXhKOLk",
+            "duration": "03:31",
+            "liked": false
+          },
+          {
+            "song": "la la la that's how it goes",
+            "videoId": "43FgE6uCyLw",
+            "duration": "03:40",
+            "liked": false
+          },
+          {
+            "song": "gone gone gone",
+            "videoId": "zL5tqEO2zwg",
+            "duration": "03:33",
+            "liked": false
+          }
+        ]
+      },
+      {
+        "album": "Love me / Love me not",
+        "singer": "Honne",
+        "type": "Top Hits",
+        "img": "./love_me_or_not.jpeg",
+        "backgroundImg": "./10428166_468795979923968_4635514652121751513_o.jpeg",
+        "followers": "1,914,830",
+        "isFollow": false,
+        "copyright": "© 2019 MNH ENTERTAINMENT",
+        "songs": [
+          {
+            "song": "Me and You",
+            "videoId": "SB4Jra4zR80",
+            "duration": "04:03",
+            "liked": false
+          },
+          {
+            "song": "Location Unknown",
+            "videoId": "btIQvYcLNoI",
+            "duration": "05:25",
+            "liked": false
+          },
+          {
+            "song": "Crying Over you",
+            "videoId": "GdJP11JwLos",
+            "duration": "03:59",
+            "liked": false
+          },
+          {
+            "song": "Day 1",
+            "videoId": "hWOB5QYcmh0",
+            "duration": "03:53",
+            "liked": false
+          }
+        ]
+      }
+    ],
+    "Taiwan Hits": [
+      {
+        "album": "11月的蕭邦",
+        "singer": "Jay Chou",
+        "type": "Taiwan Hits",
+        "img": "./R-3227320-1609179445-6309.jpeg.jpg",
+        "backgroundImg": "./kkMaIs4wzIE357wu2AYhxcVWp8SWbV1oeTOGf3kzhn8.jpeg",
+        "followers": "1,914,830",
+        "isFollow": false,
+        "copyright": "© 2019 MNH ENTERTAINMENT",
+        "songs": [
+          {
+            "song": "珊瑚海",
+            "videoId": "kYhh1PpsOg4",
+            "duration": "04:24",
+            "liked": false
+          },
+          {
+            "song": "一路向北",
+            "videoId": "L229QDxDakU",
+            "duration": "05:02",
+            "liked": false
+          },
+          {
+            "song": "黑色毛衣",
+            "videoId": "bX33UI9ZPLk",
+            "duration": "04:13",
+            "liked": false
+          },
+          {
+            "song": "髮如雪",
+            "videoId": "aaM7qG2ycjk",
+            "duration": "05:01",
+            "liked": false
+          }
+        ]
+      },
+      {
+        "album": "七里香",
+        "singer": "Jay Chou",
+        "type": "Taiwan Hits",
+        "img": "./jaychou.jpeg",
+        "backgroundImg": "./kkMaIs4wzIE357wu2AYhxcVWp8SWbV1oeTOGf3kzhn8.jpeg",
+        "followers": "1,914,830",
+        "isFollow": false,
+        "copyright": "© 2019 MNH ENTERTAINMENT",
+        "songs": [
+          {
+            "song": "七里香",
+            "videoId": "Bbp9ZaJD_eA",
+            "duration": "05:03",
+            "liked": false
+          },
+          {
+            "song": "擱淺",
+            "videoId": "YJfHuATJYsQ",
+            "duration": "04:28",
+            "liked": false
+          },
+          {
+            "song": "藉口",
+            "videoId": "KcK8WurGpEQ",
+            "duration": "04:29",
+            "liked": false
+          },
+          {
+            "song": "外婆",
+            "videoId": "Ur-x4pZT1Rk",
+            "duration": "04:09",
+            "liked": false
+          }
+        ]
+      }
+    ],
+    "Spain Hits": [
+      {
+        "album": "Eterno Agosto",
+        "singer": "Alvaro Soler",
+        "type": "Spanish Hits",
+        "img": "./Eterno-Agosto-by-Alvaro-Soler.jpeg",
+        "backgroundImg": "./titel-soler-b.jpeg",
+        "followers": "1,914,830",
+        "isFollow": false,
+        "copyright": "© 2019 MNH ENTERTAINMENT",
+        "songs": [
+          {
+            "song": "Sofia",
+            "videoId": "qaZ0oAh4evU",
+            "duration": "03:33",
+            "liked": false
+          },
+          {
+            "song": "Libre",
+            "videoId": "OMBVoxgZooE",
+            "duration": "03:56",
+            "liked": false
+          },
+          {
+            "song": "Animal",
+            "videoId": "YfDhHUuGMuo",
+            "duration": "03:57",
+            "liked": false
+          },
+          {
+            "song": "El mismo sol",
+            "videoId": "aNHwNreDp3A",
+            "duration": "03:20",
+            "liked": false
+          }
+        ]
+      }
+    ]
+  }

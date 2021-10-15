@@ -1,0 +1,287 @@
+@import "~bootstrap/scss/functions";
+@import "./helpers/_variable";
+@import "~bootstrap/scss/bootstrap";
+
+@import "./helpers/_reset";
+@import "./helpers/_modal";
+
+$text-main: #26de85;
+.youtube {
+  width: 0;
+  height: 0;
+  margin: 0;
+}
+
+.sidebar {
+  &__link {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    &.active {
+      color: $text-main;
+    }
+    &:hover {
+      color: $text-main;
+    }
+  }
+}
+
+.bottom {
+  margin-top: 120px;
+  @media only screen and (max-width: 765px) {
+    margin-top: 260px;
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  z-index: 999;
+  height: 120px;
+  padding: 2rem;
+  @media only screen and (max-width: 765px) {
+    height: 240px;
+  }
+  &__thumbnail {
+    // background-image: url('https://i.kfs.io/article5/global/24,1229,12v1/original.jpg');
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+  }
+  &__icon {
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  &__progress {
+    width: 100%;
+    height: 30px;
+  }
+  &__progressbar {
+    width: 96%;
+    height: 5px;
+    background-color: #595959;
+    border-radius: 2rem;
+    position: relative;
+    &--fill {
+      height: 5px;
+      background-color: $text-main;
+    }
+    &--circle {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      background: white;
+      pointer: cursor;
+      border-radius: 50%;
+      top: calc(50% - 6px);
+      z-index: 9;
+    }
+  }
+  &__volumn {
+    background: $text-main;
+  }
+  &__volumn::-webkit-slider-thumb {
+    background: $text-main;
+  }
+}
+
+.albumList {
+  background-color: #212121;
+  padding-bottom: 140px !important;
+  &__h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+  }
+  &__img {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    &:hover.albumList__img::before {
+      opacity: 1;
+    }
+    &:hover.albumList__img::after {
+      opacity: 1;
+    }
+    &::after {
+      font-family: "Material Icons";
+      content: "\E037";
+      width: 100%;
+      height: 100%;
+      left: 0%;
+      top: 0%;
+      background-color: rgba(29, 29, 29, 0.5);
+      position: absolute;
+      color: white;
+      opacity: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.5rem;
+      transition: opacity .3s;
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      width: 60px;
+      height: 60px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border: 1px solid white;
+      z-index: 3;
+      border-radius: 50%;
+      opacity: 0;
+      transition: opacity .3s;
+    }
+  }
+  &__name {
+    cursor: pointer;
+  }
+}
+
+.playlist {
+  &__top {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    /* &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#212121));
+    } */
+  }
+  &__top__singer {
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-top: 2.5rem;
+  }
+  &__top__btns {
+    margin-top: 2.5rem;
+  }
+  &__top__play, &__top__follow {
+    outline: none;
+    width: 150px;
+    border-radius: 20px;
+    line-height: 20px;
+    padding: .4rem 0;
+    font-size: .85rem;
+  }
+  &__top__play {
+    background-color: $text-main;
+    border: none;
+    transition: all .4s;
+    &:hover {
+      background-color: darken($text-main, 5%);
+    }
+  }
+  &__top__follow {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    transition: all .4s;
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+  &__tab {
+    &__link {
+      text-decoration: none;
+      &.active {
+        border-bottom: 1px solid $text-main;
+      }
+    }
+  }
+  &__li {
+    &__num, &__duration {
+      font-size: .85rem;
+    }
+    &__youtube {
+      text-decoration: none;
+      padding: .25rem;
+      font-size: .7rem;
+      background: $text-main;
+      color: black;
+      border-radius: 0.75rem;
+      width: 90px;
+      position: absolute;
+      right: -100%;
+      top: 110%;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0px 6px 10px 6px;
+        border-color: transparent transparent $success transparent;
+        left: 45px;
+        top: -8px;
+      }
+    }
+  }
+  &__artist{
+    &__img {
+      width: 200px;
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      border-radius: 50%;
+      &:hover.playlist__artist__img::before {
+      opacity: 1;
+    }
+    &:hover.playlist__artist__img::after {
+      opacity: 1;
+    }
+    &::after {
+      font-family: "Material Icons";
+      content: "\E037";
+      width: 100%;
+      height: 100%;
+      left: 0%;
+      top: 0%;
+      background-color: rgba(29, 29, 29, 0.5);
+      position: absolute;
+      color: white;
+      opacity: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.5rem;
+      transition: opacity .3s;
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      width: 60px;
+      height: 60px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border: 1px solid white;
+      z-index: 3;
+      border-radius: 50%;
+      opacity: 0;
+      transition: opacity .3s;
+    }
+    }
+  }
+}
+
