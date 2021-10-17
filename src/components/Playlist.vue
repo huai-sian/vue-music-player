@@ -215,6 +215,8 @@ export default {
       playerState: -1,
       isLoop: false,
       isShuffle: false,
+      inBar: false,
+      isDrag: false,
     };
   },
   filters: {
@@ -419,6 +421,30 @@ export default {
       console.log(vm.data);
       this.player.setVolume(30);
       this.default();
+    });
+  },
+  mounted() {
+    const progressbar = this.$refs.progressBar;
+    progressbar.addEventListener('mouseover', () => {
+      this.inBar = true;
+      this.isDrag = false;
+    });
+    progressbar.addEventListener('mouseout', () => {
+      this.inBar = false;
+      this.isDrag = false;
+    });
+    progressbar.addEventListener('mouseup', () => {
+      this.inBar = false;
+      this.isDrag = false;
+    });
+    progressbar.addEventListener('mousedown', () => {
+      this.inBar = true;
+      this.isDrag = true;
+    });
+    progressbar.addEventListener('mousemove', () => {
+      if (this.isDrag && this.inBar) {
+        this.processBarTime();
+      }
     });
   },
 };

@@ -105,6 +105,10 @@ $text-main: #26de85;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    @media screen and (max-width: 900px) and (min-width: 765px) {
+      height: 160px;
+      width: 160px;
+    }
     &:hover.albumList__img::before {
       opacity: 1;
     }
