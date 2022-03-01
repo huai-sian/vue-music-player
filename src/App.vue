@@ -10,7 +10,7 @@
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content p-4">
           <div class="modal-body text-white d-flex">
-          <div class="order-2">
+          <div class="order-2 d-none d-md-block">
             <img src="./assets/images/sam-mar-OQOKSsj8QME-unsplash.jpg" width="330">
           </div>
           <div class="order-1 text-start">

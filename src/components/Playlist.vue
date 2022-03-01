@@ -101,6 +101,7 @@
                 </div>
               </div>
               <div v-if="playlistTab == 'About'" class="text-success">
+                <h2 class="mb-3 text-white" style="line-height: 1.5rem;">{{ albumData.about }}</h2>
                 <h5 class="text-white">The F2E - 前端修練精神時光屋 第三關 - MP3 Player</h5>
                 <small class="text-secondary">
                   使用套件 VueYoutube 串流 Youtube 音源，The F2E 練習作品，無商業用途。
